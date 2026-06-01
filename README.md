@@ -29,3 +29,16 @@ El proyecto fue construido siguiendo rigurosamente diagramas UML, garantizando u
 - Componentes Visuales de Terceros: tkcalendar (DatePickers).
 - Persistencia: pickle, manipulación de sistema de archivos (os).
 - Utilidades: datetime, re (Expresiones regulares para validación de identidad).
+
+📂 Estructura del Proyecto
+
+/</br>
+├── main.py               # Punto de entrada de la aplicación </br>
+├── app.py                # Interfaz gráfica (Vistas y Controladores GUI)</br>
+├── modelo.py             # Entidades del dominio y lógica de validación</br>
+├── repositorio.py        # Persistencia de datos en disco</br>
+├── servicios.py          # Gestores de lógica de negocio (Consultas, Umbrales, Reportes)</br>
+├── datos/                # (Generado automáticamente) Base de datos local</br>
+│   ├── umbrales.pkl      # Configuración de límites médicos guardados</br>
+│   └── (archivos CSV de reportes exportados)</br>
+└── README.md</br>
