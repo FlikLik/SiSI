@@ -30,7 +30,7 @@ El proyecto fue construido siguiendo rigurosamente diagramas UML, garantizando u
 - Persistencia: pickle, manipulación de sistema de archivos (os).
 - Utilidades: datetime, re (Expresiones regulares para validación de identidad).
 
-📂 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
 /</br>
 ├── main.py               # Punto de entrada de la aplicación </br>
